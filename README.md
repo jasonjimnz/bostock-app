@@ -42,8 +42,8 @@ allprojects {
 
 
 # Screenshots
-![Bostock IMG1](screenshoots/Screenshot_1520685076.png)
-![Bostock IMG2](screenshoots/Screenshot_1520685091.png)
-![Bostock IMG3](screenshoots/Screenshot_1520685195.png)
-![Bostock IMG4](screenshoots/Screenshot_1520685203.png)
-![Bostock IMG1](screenshoots/Screenshot_1520685208.png)
+![Bostock IMG1](https://raw.githubusercontent.com/jasonjimnz/bostock-app/master/screenshots/Screenshot_1520685076.png)
+![Bostock IMG2](https://raw.githubusercontent.com/jasonjimnz/bostock-app/master/screenshots/Screenshot_1520685091.png)
+![Bostock IMG3](https://raw.githubusercontent.com/jasonjimnz/bostock-app/master/screenshots/Screenshot_1520685195.png)
+![Bostock IMG4](https://raw.githubusercontent.com/jasonjimnz/bostock-app/master/screenshots/Screenshot_1520685203.png)
+![Bostock IMG1](https://raw.githubusercontent.com/jasonjimnz/bostock-app/master/screenshots/Screenshot_1520685208.png)
