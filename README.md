@@ -39,3 +39,11 @@ allprojects {
 - The app is prepared to run in a computer with Android Studio and Android emulator
 - For using without local environment you only have to find/replace "http://10.0.2.2:3000" for "http://<YOUR-DEV-SERVER-IP>:3000"
 - Tested on Android 6.0 and 7.1
+
+
+# Screenshots
+![Bostock IMG1](screenshoots/Screenshot_1520685076.png)
+![Bostock IMG2](screenshoots/Screenshot_1520685091.png)
+![Bostock IMG3](screenshoots/Screenshot_1520685195.png)
+![Bostock IMG4](screenshoots/Screenshot_1520685203.png)
+![Bostock IMG1](screenshoots/Screenshot_1520685208.png)
