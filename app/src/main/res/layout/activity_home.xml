@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boton_localizacion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jjdev.allergicappandroid.HomeActivity">
+
+    <ImageButton
+        android:id="@+id/boton_localizacion"
+        android:layout_width="137dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:elevation="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/boton_mapa"
+        android:text="Localización"
+        app:layout_constraintBottom_toTopOf="@+id/boton_login"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_gestion_usuario"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginStart="76dp"
+        android:background="@android:color/transparent"
+        android:elevation="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/boton_gestion_usuario"
+        android:text="Gestión de usuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_enciclopedia"
+        android:layout_width="285dp"
+        android:layout_height="302dp"
+        android:layout_marginBottom="136dp"
+        android:layout_marginStart="40dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/boton_enciclopedia_alimentos"
+        android:text="Enciclopedia \n de productos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_qr"
+        android:layout_width="99dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:elevation="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/boton_lector"
+        android:text="Lector QR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_info_extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:elevation="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/boton_info"
+        android:text="Info extra"
+        app:layout_constraintEnd_toStartOf="@+id/boton_qr"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="16dp"
+        android:text="Iniciar sesión"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
